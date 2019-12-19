@@ -1,0 +1,7 @@
+print("\"Bonjour\"")
+print("\'Bonjour\'")
+print("\"c'est facile\"")
+print("\'c'est facile\'")
+print("\"Bonjour\" + \"à tout le groupe DWG2\"")
+print("\"Bonjour\"")
+print("\"Bonjour\"")

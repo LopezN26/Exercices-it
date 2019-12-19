@@ -1,0 +1,44 @@
+
+
+section
+{
+    background-color: darkgray;
+    display : flex;
+    border : 1px solid black;
+    flex-direction : row;
+    justify-content: space-around ;
+}
+
+main
+{
+    border : 1px solid black;
+    flex-basis : 20em;
+    margin : 15px;
+}
+
+div
+{
+    border : 1px solid black;
+}
+
+.droite
+{
+    flex-basis : 20em;
+    display : flex;
+    flex-direction : column;
+    border : 1px solid black;
+    margin : 15px;
+}
+
+.prelast
+{
+    display : flex;
+    border : 1px solid red;
+    flex-basis : 99%;
+    flex-direction : row;
+    justify-content: space-between;
+}
+.last
+{
+    flex-basis : 50%;
+}

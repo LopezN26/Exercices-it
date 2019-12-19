@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="myGoogle.css"/>
+    <script src="https://kit.fontawesome.com/545bde3ef6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div  id="container">
+        <header>
+            <ul class="listTop">
+                <li class="elListTop">Gmail</li>
+                <li class="elListTop">Images</li>
+                <li class="elListTop" id="logo"><i id="logoMeme" class="fas fa-th"></i></li>
+                <li class="elListTop" id="connexion">Connexion</li>
+            </ul>
+        </header>
+        <main>
+            <figure>
+                <img src="google.png" alt="logo de Google"/>
+            </figure>
+            <form method="GET">
+                <span id="rechercheSpan"><i class="fas fa-search"></i><input id="rechercheBarre" onclick="setOmbreSpan()" type="text" /></span>
+            </form>
+            <div class="divBoutons">
+                <input id="rechercheBut" class="boutons" type="button" value="Recherche Google"/>
+                <input id="chanceBut" class="boutons" type="button" value="J'ai de la chance"/>
+            </div>
+        </main>
+        <footer>
+            <div class="etage1">
+                <span>France</span>
+            </div>
+            <div class="etage2">
+                <ul class="listBot">
+                    <li class ="elListBotLeft">Publicité</li>
+                    <li class ="elListBotLeft">Entreprise</li>
+                    <li class ="elListBotLeft">A propos</li>
+                    <li class ="elListBotLeft">Comment fonctionne la recherche Google ?</li>
+                </ul>
+                <ul class="listBot">
+                    <li class ="elListBotRight">Info consommateurs</li>
+                    <li class ="elListBotRight">Confidentialité</li>
+                    <li class ="elListBotRight">Conditions</li>
+                    <li class ="elListBotRight">Paramètres</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="myGoogle.js"></script>
+</body>

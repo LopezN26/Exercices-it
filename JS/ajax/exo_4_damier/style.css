@@ -1,0 +1,21 @@
+section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caseV
+{
+    width : 20px;
+    height : 20px;
+    background-color: darkviolet;
+    margin : 5px;
+}
+
+.caseJ
+{
+    width : 20px;
+    height : 20px;
+    background-color: yellow;
+    margin : 5px;
+}

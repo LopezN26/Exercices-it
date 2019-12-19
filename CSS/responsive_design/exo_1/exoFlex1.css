@@ -1,0 +1,23 @@
+ul
+{
+    list-style : none;
+    display : flex;
+    flex-direction: column;
+    background: darkslategray;
+    color:white;
+    justify-content : space-between;
+}
+
+@media  (min-width: 740px)
+
+{
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background: darkslategray;
+    color: white;
+    justify-content: space-between;
+}
+
+}

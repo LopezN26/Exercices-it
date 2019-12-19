@@ -1,0 +1,32 @@
+#n1
+{
+    background: darkviolet;
+}
+
+#n2
+{
+    background: #0b807d;
+}
+
+#n3
+{
+    background: #ff1f13;
+}
+
+@media (max-width: 800px)
+{
+    #n1
+    {
+        background: yellow;
+    }
+
+    #n2
+    {
+        background: green;
+    }
+
+    #n3
+    {
+        background: hotpink;
+    }
+}

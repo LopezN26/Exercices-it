@@ -1,0 +1,5 @@
+En fait, quand t'as fait l'exo, t'as oublié de copier le contenu de ce dossier dans celui de l'exo suivant
+Du coup t'as 2 fois l'exo suivant, ici et dans modifier classe plusieurs noeuds, et t'as perdu le replace h1 h2.
+
+Après il suffit de créer un noeud h1 avec un id, 
+Puis de replaceChild("id_h2_a_virer","id_h1_de_remplacement");

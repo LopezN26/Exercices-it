@@ -1,0 +1,203 @@
+body
+{
+    margin : 0px;
+    font-family: arial,sans-serif;
+}
+
+#container
+{
+    width : 100vw ;
+    height : 100vh;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: space-between;
+    font-family: arial,sans-serif ;
+}
+
+header 
+{
+    align-self : flex-end;
+}
+
+.listTop
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none ;
+    align-items : center;
+}
+
+.elListTop
+{
+    margin : 10px;
+    font-size : 13px;
+    color: rgba(0,0,0,.99);
+}
+
+.elListTop:hover
+{
+    text-decoration: underline;
+}
+
+#logo
+{
+    color :  rgba(0,0,0,.54);
+}
+
+#logoMeme:hover
+{
+    color :  rgba(0,0,0,.75);
+}
+
+#connexion
+{
+    background-color: #4285f4;
+    border-radius : 2px;
+    padding : 10px;
+    color : white;
+}
+main
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+figure
+{
+    width : 44%;
+    margin-bottom: 17px;
+}
+
+img{
+    width : 100%
+}
+
+form
+{
+    display: flex;
+    flex-direction: stretch;
+    width : 93%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+form>span
+{
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    flex-basis : 100%;
+    border : 1px solid #e4e4e4;
+    border-radius : 50px;
+    padding : 0px 10px 0px 10px;
+    height : 44px;
+    position: relative;
+}
+form>span:hover
+{
+    box-shadow: rgb(200,200,200) 0px 0px 5px;
+}
+form>span:active
+{
+    box-shadow: rgb(200,200,200) 0px 0px 5px;
+}
+i
+{
+    color :#9AA0A6;
+    margin-left : 5px;
+    margin-right : 10px;
+}
+#rechercheBarre
+{
+    flex-basis: 95%;
+    height : 2em;
+    border : none;
+}
+
+.boutons
+{
+    color: rgba(0,0,0,.57);
+    font-size: 14px;
+    font-weight : 500;
+    background-color : #f2f2f2;
+    border : 1px solid #f2f2f2;
+    padding : 8px 12px 8px 12px;
+    margin : 15px 3px 3px 3px;
+    border-radius: 3px;
+    font-family: arial,sans-serif;
+}
+
+#rechercheBut:hover
+{
+   border : #c6c6c6 solid 1px;
+   color : black;
+}
+
+#chanceBut:hover
+{
+   border : #c6c6c6 solid 1px;
+   color : black;
+}
+
+footer
+{
+    display : flex;
+    flex-direction : column;
+    width: 100%;
+}
+
+.etage1
+{
+    padding: 0.8em 0.8em 0.8em 2em;
+    font-size : 15px;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border-top : 1px solid #e4e4e4;
+}
+
+.etage2
+{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    font-size : 15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border : 1px solid #e4e4e4;
+}
+
+.listBot
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    padding : 0px;
+}
+
+.elListBotLeft
+{
+    font-size: 13px;
+    padding : 0em 1.5em 0em 0em;
+}
+
+.elListBotLeft:hover
+{
+    text-decoration: underline;
+}
+
+.elListBotRight
+{
+    font-size: 13px;
+    padding: 0em 1.5em 0em 0.5em;
+}
+
+.elListBotRight:hover
+{
+    text-decoration: underline;
+}

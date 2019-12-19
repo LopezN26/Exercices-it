@@ -1,0 +1,217 @@
+main
+{
+    display : flex;
+    flex-direction : column;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titresite
+{
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+}
+
+.listeTitre
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li
+{
+    padding : 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.menuGauche
+{
+    background-color: rgb(199, 73, 51);;
+    color : white;
+    padding-top : 0.5em;
+}
+
+.partGauche
+{
+    display: flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items : center;
+    padding : 0.2em;
+}
+
+i
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+h4
+{
+    padding-right: 3em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.basdroite
+{
+    display: flex;
+    flex-direction : column;
+}
+
+.mainTitle
+{
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+}
+h1
+{
+    background-color: rgb(235, 200, 187);
+    margin : 0px;
+    padding : 0.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(99, 99, 99);
+    text-align : center;
+}
+.recetteimage
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis : 100%;
+    background-color: rgb(231, 224, 216);
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.recette
+{
+    display : flex;
+    flex-direction : column;
+    flex-basis : 60%;
+    background-color: white;
+    justify-content: flex-start;
+    padding :2.5em;
+}
+
+h5
+{
+    font-family: 'Courgette', cursive;
+    color : rgb(199, 73, 51);;
+    padding-left : 0.5em;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.listeRecette
+{
+    display: flex;
+    flex-direction : column;
+    padding-left: 2.5em;
+    color : rgb(99, 99, 99);
+}
+
+p
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    color :rgb(99, 99, 99);
+    font-size: 12;
+}
+
+input[type="button"]
+{
+    width : 200px;
+    height : 75px;
+    align-self: center;
+    border : none;
+    border-radius : 15px;
+    background-color: rgb(199, 73, 51);
+    color : white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight : 800;
+    margin-top : 1em;
+}
+figure
+{
+    display: flex;
+    flex-direction: column;
+    width : 35%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.cookies3
+{
+    width : 100%;
+}
+
+img
+{
+    padding-bottom: 10px;
+}
+
+.fontFormulaire
+{
+    background-color: rgb(231, 224, 216);
+    padding : 1em;
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+
+.formLignesBouton
+{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items : center ;
+    padding : 1em;
+    background-color: white;
+}
+
+.formLignes
+{
+    
+}
+.ligneForm
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding : 1em;
+    width : 50em;
+}
+
+
+
+.ligneForm>input
+{
+    border : 1px solid red;
+    flex-basis : 90%;
+    border-radius: 5px;
+}
+.ligneForm>textarea
+{
+    border : 1px solid red;
+    flex-basis : 90%;
+    height : 10em;
+    border-radius: 5px;
+}
+.formBouton
+{
+   
+}
