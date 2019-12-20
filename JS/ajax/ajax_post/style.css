@@ -1,0 +1,13 @@
+.invisible
+{
+    visibility: hidden;
+}
+#erreur
+{
+    color:red;
+}
+
+#merci
+{
+    color:blue;
+}

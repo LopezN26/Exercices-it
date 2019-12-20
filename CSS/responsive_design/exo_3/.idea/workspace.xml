@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682a88cf-3233-4572-a121-dbbad5c3119a" name="Default Changelist" comment="" />
+    <list default="true" id="682a88cf-3233-4572-a121-dbbad5c3119a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/exo_1/.idea/exo_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/les_pays_json/.idea/les_pays_json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/les_pays_json/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/nb_pays_precis/.idea/nb_pays_precis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/un_pays_json/.idea/un_pays_json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_1_pays/.idea/exo_1_pays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_2_nombre/.idea/exo_2_nombre.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_3_compteur/.idea/exo_3_compteur.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_4_damier/.idea/exo_4_damier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exoFlex4.css" beforeDir="false" afterPath="$PROJECT_DIR$/exoFlex4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exoFlex4.html" beforeDir="false" afterPath="$PROJECT_DIR$/exoFlex4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/exo_1_pays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/pays.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/.idea/exo_2_nombre.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_2_nombre/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/.idea/exo_3_compteur.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_3_compteur/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/.idea/exo_4_damier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_4_damier/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1V7HITOYnIxnGdxcS1IlY9YSzf2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +59,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -40,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576597246811</updated>
       <workItem from="1576597248048" duration="153000" />
+      <workItem from="1576760019307" duration="3660000" />
     </task>
     <servers />
   </component>

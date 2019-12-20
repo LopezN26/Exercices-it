@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="522c8b64-8c7a-477c-9927-13e495e3acbc" name="Default Changelist" comment="">
+    <list default="true" id="8e443864-6384-452d-8dcf-09125c7562a6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../exo_3/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/exo_1/.idea/exo_1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_json/les_pays_json/.idea/les_pays_json.iml" afterDir="false" />
@@ -13,10 +13,12 @@
       <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_3_compteur/.idea/exo_3_compteur.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../JS/ajax/ajax_text/exo_4_damier/.idea/exo_4_damier.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exoFlex5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exoFlex5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exoFlex7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exoFlex7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exo_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exo_3/exoFlex4.css" beforeDir="false" afterPath="$PROJECT_DIR$/../exo_3/exoFlex4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exo_3/exoFlex4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exo_3/exoFlex4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exo_4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/exo_1_pays.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../JS/ajax/exo_1_pays/.idea/modules.xml" beforeDir="false" />
@@ -49,10 +51,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1V7HITOYnIxnGdxcS1IlY9YSzf2" />
+  <component name="ProjectId" id="1VCsmJoLjJdZuMeGZJ8uylycm48" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,15 +70,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,27 +98,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="522c8b64-8c7a-477c-9927-13e495e3acbc" name="Default Changelist" comment="" />
-      <created>1576597133378</created>
+      <changelist id="8e443864-6384-452d-8dcf-09125c7562a6" name="Default Changelist" comment="" />
+      <created>1576768568633</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576597133378</updated>
-      <workItem from="1576597134540" duration="112000" />
-      <workItem from="1576763832832" duration="4731000" />
+      <updated>1576768568633</updated>
+      <workItem from="1576768569755" duration="1805000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="128" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576763923708">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="128" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1576763923708" />
-    <state x="193" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576768333624">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="193" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576768333624" />
   </component>
 </project>

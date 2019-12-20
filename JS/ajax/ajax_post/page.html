@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section>
+        <div id="erreur" class="invisible">
+            attention le formulaire contient des erreurs
+        </div>
+        <form id="formuulaire" onsubmit="return false">
+            <label for="email">e-mail</label>
+            <input id="email" name="email" type="email"/>
+            <label for="ta">message</label>
+            <textarea id="ta"></textarea>
+            <input onclick="sendAjax()" type="submit" value="envoyer"/>
+        </form>
+        <section id="merci" class="invisible">
+            merci pour votre message, nous vous répondrons sous 24h
+        </section>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
