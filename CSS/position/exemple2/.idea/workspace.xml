@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e443864-6384-452d-8dcf-09125c7562a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="6338f546-dd4a-4442-91d7-0746c27afe22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../responsive_design/exo_glisse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../responsive_design/exo_glisse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../responsive_design/exo_glisse/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../responsive_design/exo_glisse/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1VCsmJoLjJdZuMeGZJ8uylycm48" />
+  <component name="ProjectId" id="1W9OdzLTH39MsFrQBX2ncjgCjDg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,10 +21,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,13 +47,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e443864-6384-452d-8dcf-09125c7562a6" name="Default Changelist" comment="" />
-      <created>1576768568633</created>
+      <changelist id="6338f546-dd4a-4442-91d7-0746c27afe22" name="Default Changelist" comment="" />
+      <created>1578558434257</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576768568633</updated>
-      <workItem from="1576768569755" duration="1805000" />
-      <workItem from="1576855524108" duration="223000" />
+      <updated>1578558434257</updated>
+      <workItem from="1578558435543" duration="1311000" />
     </task>
     <servers />
   </component>

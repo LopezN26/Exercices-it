@@ -1,0 +1,22 @@
+section
+{
+    width:400px;
+    position : relative;
+    background-color: pink;
+}
+
+div
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+div+div
+{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+}

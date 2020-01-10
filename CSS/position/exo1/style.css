@@ -1,0 +1,43 @@
+main
+{
+    background-color: greenyellow;
+    width:800px;
+    margin: 0;
+    padding: 0;
+}
+
+section
+{
+    position : relative;
+    background-color: pink;
+}
+
+img
+{
+    transition : opacity 1s linear;
+}
+img:hover
+{
+    opacity: 0.5;
+}
+
+img:hover+#hide
+{
+    transform: translate(200px,200px);
+    opacity: 1;
+}
+
+#hide
+{
+    opacity : 0;
+    position: absolute;
+    top:200px;
+    right: 400px;
+    padding: 0;
+    transition: transform 2s ease, opacity 2s ease;
+}
+
+i{
+    font-size: 5em;
+    color: white;
+}

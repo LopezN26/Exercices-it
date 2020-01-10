@@ -1,0 +1,60 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li
+{
+    list-style: none;
+    padding: 3px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold ;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("CN.jpg");
+    color : black;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+
+}
+
+#divbutton
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#precedent
+{
+    visibility: hidden;
+}

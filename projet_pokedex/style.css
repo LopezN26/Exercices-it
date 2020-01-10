@@ -1,0 +1,54 @@
+section
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #d61000;
+}
+#aff
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #d98f00;
+    margin : 2em;
+}
+
+div
+{
+    flex-basis: 50%;
+
+}
+p
+{
+    border: 1px solid black;
+    margin:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Det
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Det>p
+{
+    border: none;
+}
+
+img
+{
+    border: red 5px solid;
+    border-radius: 5px;
+    background-color: rgb(22, 200, 0);
+    margin-top: 4em;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
