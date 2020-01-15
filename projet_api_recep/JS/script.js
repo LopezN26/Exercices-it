@@ -66,11 +66,11 @@ function del(e)
             id : e.data.id
         },
         success : function(reponse) {
-            alert("succes")
+            display();
         },
-        dataType : "json"
+        dataType : "text"
     });
-    display();
+
 }
 $("#edit").on("click",edit);
 
@@ -89,10 +89,11 @@ function edit()
         },
         success : function(response)
             {
+                display();
             },
             dataType: "json"
     });
-    display();
+
 }
 
 $("#addButton").on("click",cleanmodaladd);
@@ -125,9 +126,9 @@ function add()
         },
         success : function(response)
             {
-                alert("add worked")
+                display();
             },
             dataType: "json"
     });
-    display();
+
 }
