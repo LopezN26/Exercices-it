@@ -1,0 +1,30 @@
+.blue
+{
+    background-color: blue;
+    height: 50px;
+    margin : 1px;
+}
+
+.green
+{
+    background-color: green;
+    height: 50px;
+}
+
+.red
+{
+    background-color: red;
+    height: 50px
+}
+
+.yellow
+{
+    background-color: yellow;
+    height:50px;
+}
+
+.grey
+{
+    background-color: grey;
+    height:50px;
+}

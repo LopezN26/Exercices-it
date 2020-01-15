@@ -1,0 +1,41 @@
+
+section
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Ram_jen.jpg");
+    background-position: bottom;
+}
+img
+{
+    height: 100%;
+    padding-right: 10px;
+}
+.center
+{
+    text-align:center;
+}
+
+.cent
+{
+    height:80px;
+}
+
+.fontsizeem
+{
+    font-size: 1.5em;
+}
+.gros
+{
+    height: 100px;
+    font-size: 2em;
+}
+.margin
+{
+    margin: 0.25em;
+}
+.opacity
+{
+    opacity: 0.8;
+}
+

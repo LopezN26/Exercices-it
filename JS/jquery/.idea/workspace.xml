@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58c2cbbb-aa22-46cf-ab8a-19d9552fd397" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/.idea/projet_portfolio_animationv1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/Megazord.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_cheum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_cyclope.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_jafar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_shark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/bad_unicorn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/powerblaster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/powerpopi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/shrek2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/images/shrek4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/projet_portfolio.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/css/docs.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/bird_blue_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-modern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/feature-zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/owl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/img/twitter_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/vendors/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/vendors/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/vendors/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/vendors/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/animate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/autoplay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/autowidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/demos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/lazyLoad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/merge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/mousewheel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/stagepadding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/urlhashnav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/demos/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/api-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/api-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/api-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/dev-buildin-plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/dev-external.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/dev-plugin-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/dev-styles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/started-faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/started-installation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/started-welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/support-changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/support-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/docs/support-contributing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/docs_owl_carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/scrollIt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projet_portfolio_animationv1/vendor/typed.min.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1WNgglCEXoFgc1huP5NwdE8GeIW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58c2cbbb-aa22-46cf-ab8a-19d9552fd397" name="Default Changelist" comment="" />
+      <created>1578995580564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578995580564</updated>
+      <workItem from="1578995585669" duration="208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1578995670655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578995670655" />
+  </component>
+</project>
