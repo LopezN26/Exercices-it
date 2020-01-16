@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="Css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="Css/main.css">
+    <script src="JS/jquery.js"></script>
+</head>
+<body>
+<!-- Button trigger modal -->
+<button id="listButton" type="button" class="btn btn-secondary">
+    Afficher
+</button>
+<button id="addButton" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal1">
+    Ajouter
+</button>
+<select>
+    <option selected value="">Trier par</option>
+    <option value="couleur">Couleur</option>
+    <option value="pays">Pays</option>
+    <option value="degres">Degrés</option>
+</select>
+<!-- Modal1 -->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" class="form-control" id="nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="id">Id</label>
+                        <input type="text" class="form-control" id="id">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="degres">Degres</label>
+                        <input type="text" class="form-control" id="degres">
+                    </div>
+                    <div class="form-group">
+                        <label for="prix">Prix</label>
+                        <input type="text" class="form-control" id="prix" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="couleur">Couleur</label>
+                        <input type="text" class="form-control" id="couleur">
+                    </div>
+                    <div class="form-group">
+                        <label for="amertume">Amertume</label>
+                        <input type="text" class="form-control" id="amertume">
+                    </div>
+                    <div class="form-group">
+                        <label for="pays">Pays</label>
+                        <input type="text" class="form-control" id="pays">
+                    </div>
+                    <button id="edit" type="button" class="btn btn-primary">Modifier</button>
+                    <button id="add" type="button" class="btn btn-primary">Ajouter</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                Footer
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Page-->
+    <main id="main">
+        <div id="first" class="row">
+            <div class="col-lg-1">
+                id
+            </div>
+            <div class="col-lg-4">
+                Titre
+            </div>
+            <div class="col-lg-3">
+                Artiste
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </main>
+</body>
+<script src="JS/bootstrap.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/script.js"></script>
+</html>
