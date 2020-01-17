@@ -3,7 +3,7 @@
 
 
 $(document).ready(function(){
-    $("#listButton").on("click",function(){
+    $("#refreshButton").on("click",function(){
         display();
     })
 });
@@ -89,8 +89,8 @@ function edit()
         },
         success : function(response)
             {
-                display();
                 $("#Modal1").modal("hide");
+                display();
             },
             dataType: "text"
     });
@@ -103,8 +103,8 @@ function cleanmodaladd()
 {
     $("#edit").css("visibility","hidden");
     $("#add").css("visibility","visible");
-    $("#id").css("display","none");
     $("#titre").val("");
+    $("#id").val("Affecté par l'api");
     $("#genre").val("");
     $("#artiste").val("");
     $("#date").val("");
@@ -127,7 +127,6 @@ function add()
         },
         success : function(response)
             {
-                alert("uu")
                 display();
                 $("#Modal1").modal("hide");
             },
@@ -175,6 +174,7 @@ function tri(choix)
     });
 }
 
+display();
 
 
 

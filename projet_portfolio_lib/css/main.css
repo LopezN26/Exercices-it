@@ -10,19 +10,35 @@ header
     /*box-sizing: border-box;*/
 }
 
-nav
+header>nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     flex-basis:7%;
+    width: 100%;
+    position: fixed;
+    z-index:2;
+}
+.background
+{
+    background-color: rgba(0, 0, 0, 0.50);
 }
 ul
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     color: white;
+    width: 85%;
+}
+ul>i
+{
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 20px;
+    align-self: flex-end;
 }
 li
 {
@@ -30,7 +46,11 @@ li
     padding-left: 1vw;
     padding-right: 1vw;
 }
-li[data-scroll-nav]
+li:hover
+{
+    text-decoration: underline;
+}
+.invisible
 {
     visibility: hidden;
 }
@@ -58,7 +78,7 @@ header>section
     justify-content: space-around;
 }
 
-header i
+figure>i
 {
     background-color: #292929;
     padding: 10px;
@@ -95,6 +115,58 @@ header i
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+#contenuAboutMe>div>section
+{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progressBar
+{
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+    background: #F7F7F7;
+    box-shadow: inset 0px 2px 7px RGBA(0,0,0,0.15);
+    margin-bottom: 30px;
+}
+.progressBarFill
+{
+    position: absolute;
+    color: #dcdcdc;
+    background-color: #1c1c1c;
+    box-shadow: inset 0px 2px 7px rgb(233, 228, 222);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#progressBarFill1
+{
+    width: 80%;
+}
+#progressBarFill2
+{
+    width: 45%;
+}
+.progressBarFill>p
+{
+    margin: 0;
+    padding-left: 5px;
+}
+.progressBar>p{
+    margin: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: right;
+}
+
+#contenuAboutMe button
+{
+    margin-bottom: 5px;
 }
 #downloadButton
 {
@@ -103,6 +175,7 @@ header i
     border: none;
     padding: 10px;
     border-radius: 8px;
+
 }
 
 #contactMeButton
@@ -120,7 +193,7 @@ header i
 
 #certification .slide
 {
-    height: 70vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +219,6 @@ header i
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 99vw;
 }
 #portfolio div
 {
@@ -166,22 +238,30 @@ header i
     opacity:0.9;
 }
 
-
+#portfolio>section>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 .whiteSquare
 {
+    box-sizing: border-box;
     background-color: ghostwhite;
     border-radius: 15px;
     position: absolute;
-    top: 1.6vw;
-    left: 2.5vw;
-    width: 70vw;
-    height: 56.6vw;
     opacity: 0;
     transition: opacity 0.7s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 85%;
+    margin: 10px;
+    border: black 2px solid;
 }
 
 .whiteSquare:hover
@@ -241,21 +321,18 @@ header i
         display: flex;
         flex-direction: column;
         color: white;
-        /*box-sizing: border-box;*/
     }
 
-    nav
+    header>nav
     {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-end;
-        flex-basis:7%;
+        background-color: rgba(0, 0, 0, 0.50)
     }
     ul
     {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-end;
         color: white;
     }
     li
@@ -268,7 +345,7 @@ header i
     {
         visibility: visible;
     }
-    li>i
+    ul i
     {
         visibility: hidden;
         width: 1px;
@@ -316,7 +393,6 @@ header i
     #aboutMe
     {
         background-color: ghostwhite;
-        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -334,6 +410,13 @@ header i
         flex-direction: column;
     }
 
+    #contenuAboutMe>div>section
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
     #downloadButton
     {
         background-color: black;
@@ -358,7 +441,6 @@ header i
 
     #certification .slide
     {
-        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -397,34 +479,12 @@ header i
         flex-wrap: wrap;
         border-radius: 15px;
     }
-
-    #portfolio img:hover+.whiteSquare
-    {
-        opacity:0.9;
-    }
-
-
     .whiteSquare
     {
-        background-color: ghostwhite;
-        border-radius: 15px;
-        position: absolute;
-        top: 0.76vw;
-        left: 1.02vw;
-        width: 23vw;
-        height: 18.4vw;
-        opacity: 0;
-        transition: opacity 0.7s;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 90%;
+        height: 75%;
     }
 
-    .whiteSquare:hover
-    {
-        opacity:0.9;
-    }
 
     #contact
     {

@@ -1,0 +1,90 @@
+main
+{
+    width: 100vw;
+    height: 100vh;
+    /*background: linear-gradient(#000632, #ce003f);*/
+    background-color: black;
+    animation : sky 15s alternate 3s ease-in-out infinite;
+    position: relative;
+}
+section
+{
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    bottom: 0;
+    background-color: black;
+    animation: land 15s normal 3s ease-in-out infinite;
+    z-index: 2;
+}
+i
+{
+    font-size: 5em;
+    color: #c2a000;
+    position: absolute;
+    animation: sides 15s normal 3s linear infinite, rise 15s normal 3s ease-in-out infinite;
+    z-index: 1;
+}
+
+
+@keyframes sides {
+    from {
+        color: #c2a000;
+        left:0;
+    }
+    50%
+    {
+        color: yellow;
+    }
+    to {
+        color: #c2a000;
+        left:94.5vw;
+    }
+}
+@keyframes rise {
+    from {
+        bottom:0;
+    }
+    50% {
+        bottom: 80vh;
+    }
+    to {
+        bottom: 0;
+    }
+}
+@keyframes sky {
+    from {
+        background-color: black;
+    }
+    10%{
+        background-color: rgba(128, 0, 80, 0.71);
+    }
+    50%{
+        background-color: rgba(0, 223, 255, 0.69);
+    }
+    90% {
+        background-color: rgba(128, 0, 80, 0.71);
+    }
+    to {
+        background-color: black;
+    }
+}
+@keyframes land {
+    from {
+        background-color: black;
+    }
+    10%
+    {
+        background-color: #002709;
+    }
+    50%{
+        background-color: #006217;
+    }
+    90%
+    {
+        background-color: #002709;
+    }
+    to {
+        background-color: black;
+    }
+}

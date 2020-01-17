@@ -24,3 +24,9 @@ $(function(){
     //     onPageChange: null,    // function(pageIndex) that is called when page is changed
     //     topOffset: 0           // offste (in px) for fixed top navigation
 });
+
+$("nav i").on("click",function () {
+    $("li[data-scroll-nav]").toggleClass("invisible");
+    $("nav").toggleClass("background");
+
+});

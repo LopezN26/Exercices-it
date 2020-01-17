@@ -12,19 +12,22 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <script src="vendor/owl.carousel.min.js"></script>
     <script src="vendor/scrollIt.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins:400,800&display=swap" rel="stylesheet">
+    <!--font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;-->
 </head>
 <body>
     <header data-scroll-index="0">
             <nav>
                 <ul>
-                    <li data-scroll-nav="0">Home</li>
-                    <li data-scroll-nav="1">About me</li>
-                    <li data-scroll-nav="2">Certification</li>
-                    <li data-scroll-nav="3">Monstres vaincus</li>
-                    <li data-scroll-nav="4">Contact</li>
-                    <li><i class="fas fa-list"></i></li>
+                    <i class="fas fa-list"></i>
+                    <li class="invisible" data-scroll-nav="0">Home</li>
+                    <li class="invisible" data-scroll-nav="1">About me</li>
+                    <li class="invisible" data-scroll-nav="2">Certification</li>
+                    <li class="invisible" data-scroll-nav="3">Monstres vaincus</li>
+                    <li class="invisible" data-scroll-nav="4">Contact</li>
                 </ul>
+
             </nav>
             <section>
                     <h2>Hello</h2>
@@ -65,8 +68,20 @@
                         These cases are perfectly simple and easy to distinguish.
                         In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
                     </p>
-                    <p> Shortly, progress bar here</p>
-                    <div>
+                    <section>
+                        <div class="progressBar">
+                            <div class="progressBarFill" id="progressBarFill1">
+                                <p>Progress Bar 1</p>
+                            </div>
+                            <p>80%</p>
+                        </div>
+                        <div class="progressBar">
+                            <div class="progressBarFill" id="progressBarFill2">
+                                <p>Progress Bar 2</p>
+                            </div>
+                            <p>45%</p>
+                        </div>
+                    </section>
                         <button type="button" id="downloadButton">Download C.V</button>
                         <button type="button" id="contactMeButton">Contact Me</button>
                     </div>
