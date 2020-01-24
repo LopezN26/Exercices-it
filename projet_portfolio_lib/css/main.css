@@ -19,6 +19,9 @@ header>nav
     width: 100%;
     position: fixed;
     z-index:2;
+    font-size: 1.4em;
+    font-family: Poppins;
+
 }
 .background
 {
@@ -32,6 +35,8 @@ ul
     align-items: center;
     color: white;
     width: 85%;
+    padding: 0;
+    margin :0.3em;
 }
 ul>i
 {
@@ -40,11 +45,16 @@ ul>i
     border-radius: 20px;
     align-self: flex-end;
 }
+ul i[class="fas fa-list"]
+{
+    position: absolute;
+}
 li
 {
     list-style: none;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding: 0.1em;
 }
 li:hover
 {
@@ -64,13 +74,28 @@ header>section
     margin-bottom: 7%;
 }
 
+header h2
+{
+    font-size: 5em;
+    margin-bottom: 0;
+    font-family: Montserrat;
+}
+
 #messageAccueil
 {
     display: flex;
     flex-direction: column;
 
 }
-
+header>section span
+{
+    font-size: 4em;
+    font-family: Poppins;
+}
+#typed
+{
+    color: #b599ff;
+}
 #logoHeader
 {
     display: flex;
@@ -99,6 +124,18 @@ figure>i
     align-items: center;
 }
 
+#aboutMe h2
+{
+    font-size: 3.5em;
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+
+#aboutMe h3
+{
+    font-size: 1.5em;
+    font-family: Poppins;
+}
 #aboutMe>section
 {
     display: flex;
@@ -116,6 +153,7 @@ figure>i
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Poppins;
 }
 #contenuAboutMe>div>section
 {
@@ -124,6 +162,11 @@ figure>i
     flex-direction: column;
     align-items: center;
 }
+#contenuAboutMe>div>p
+{
+    padding: 1em;
+}
+
 .progressBar
 {
     position: relative;
@@ -132,6 +175,10 @@ figure>i
     background: #F7F7F7;
     box-shadow: inset 0px 2px 7px RGBA(0,0,0,0.15);
     margin-bottom: 30px;
+}
+.progressBar p
+{
+    padding: 2px;
 }
 .progressBarFill
 {
@@ -200,11 +247,21 @@ figure>i
     justify-content: space-around;
     background-color: #eaeaee;
 }
+#certification h2
+{
+    font-size: 2.5em;
+    font-family: Montserrat;
+}
 #certification img
 {
     width: 10em;
     height: 10em;
     border-radius: 5em;
+}
+#certification p
+{
+    font-family: Poppins;
+    font-size: 1.5em;
 }
 
 #portfolio
@@ -212,6 +269,12 @@ figure>i
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#portfolio h2
+{
+    font-size: 3em;
+    font-family: Montserrat;
 }
 #portfolio>section
 {
@@ -246,6 +309,8 @@ figure>i
     align-items: center;
     position: relative;
 }
+
+
 .whiteSquare
 {
     box-sizing: border-box;
@@ -263,7 +328,16 @@ figure>i
     margin: 10px;
     border: black 2px solid;
 }
-
+.whiteSquare span
+{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2em;
+}
+.whiteSquare i
+{
+    font-size: 2em;
+}
 .whiteSquare:hover
 {
     opacity:0.9;
@@ -277,7 +351,17 @@ figure>i
     justify-content: space-around;
     align-items: center;
 }
-
+#contact h2
+{
+    font-family: Montserrat;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+#contact h4
+{
+    font-family: Montserrat;
+    font-size: 1.5em;
+}
 #contact>form
 {
     display: flex;
@@ -300,6 +384,12 @@ figure>i
     width: 50vw;
     border: none;
     border-radius: 5px;
+    font-size: 1.5em;
+    height : 4.5em;
+}
+#contact input
+{
+    font-size: 1.5em;
 }
 
 #contact input[type="submit"]
@@ -334,6 +424,7 @@ figure>i
         flex-direction: row;
         justify-content: flex-end;
         color: white;
+        margin :1em;
     }
     li
     {
@@ -513,9 +604,7 @@ figure>i
 
     #contact textarea
     {
-        width: 50vw;
-        border: none;
-        border-radius: 5px;
+        height: 6em;
     }
 
     #contact input[type="submit"]
