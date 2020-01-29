@@ -7,7 +7,6 @@ header
     display: flex;
     flex-direction: column;
     color: white;
-    /*box-sizing: border-box;*/
 }
 
 header>nav
@@ -34,7 +33,7 @@ ul
     justify-content: space-between;
     align-items: center;
     color: white;
-    width: 85%;
+    width: 100%;
     padding: 0;
     margin :0.3em;
 }
@@ -240,12 +239,15 @@ figure>i
 
 #certification .slide
 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: #eaeaee;
+}
+#certification .slide p
+{
+    text-align: center;
 }
 #certification h2
 {
@@ -402,16 +404,7 @@ figure>i
 
 
 @media (min-width:800px) {
-    header
-    {
-        height : 100vh;
-        background-image: url("../images/desk.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        display: flex;
-        flex-direction: column;
-        color: white;
-    }
+
 
     header>nav
     {
@@ -420,6 +413,7 @@ figure>i
     }
     ul
     {
+
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -444,29 +438,7 @@ figure>i
         padding: 0;
         margin: 0;
     }
-    header>section
-    {
-        flex-basis: 93%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 7%;
-    }
 
-    #messageAccueil
-    {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    #logoHeader
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
 
     #logoHeader>i
     {
@@ -481,13 +453,6 @@ figure>i
         margin-left: 4px;
     }
 
-    #aboutMe
-    {
-        background-color: ghostwhite;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     #aboutMe>section
     {
@@ -495,11 +460,6 @@ figure>i
         flex-direction: row;
     }
 
-    #aboutMe>div
-    {
-        display: flex;
-        flex-direction: column;
-    }
 
     #contenuAboutMe>div>section
     {
@@ -508,49 +468,9 @@ figure>i
         flex-direction: column;
         align-items: flex-start;
     }
-    #downloadButton
-    {
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px;
-        border-radius: 8px;
-    }
 
-    #contactMeButton
-    {
-        border: black solid 1px;
-        color: purple;
-        padding: 10px;
-        border-radius: 8px;
-    }
 
-    #certification
-    {
-        background-color: #ececf4;
-    }
 
-    #certification .slide
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #eaeaee;
-    }
-    #certification img
-    {
-        width: 10em;
-        height: 10em;
-        border-radius: 5em;
-    }
-
-    #portfolio
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     #portfolio>section
     {
         display: flex;
@@ -558,10 +478,6 @@ figure>i
         justify-content: space-around;
         width: 99vw;
         margin: 2.5vw;
-    }
-    #portfolio div
-    {
-        position : relative;
     }
     #portfolio img
     {
@@ -577,40 +493,9 @@ figure>i
     }
 
 
-    #contact
-    {
-        background-color: #fff7db;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #contact>form
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        height: 40vh;
-    }
-
-    #contact input
-    {
-        width: 50vw;
-        border: none;
-        border-radius: 5px;
-    }
-
     #contact textarea
     {
         height: 6em;
     }
 
-    #contact input[type="submit"]
-    {
-        background-color: black;
-        color: white;
-        width: 8em;
-    }
 }    

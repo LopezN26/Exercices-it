@@ -1,7 +1,7 @@
 
 new Typed ("#typed", {
     strings: ["tant pis", "jeej","tuuj","awoin"],
-    typeSpeed : 10
+    typeSpeed : 50
 });
 
 $(document).ready(function()
